@@ -18,10 +18,16 @@
     font-family: 'Inter Medium';
     src: url(../Fonts/Inter-Medium.ttf);
 }
+@font-face {
+    font-family: 'MV Boli';
+    src: url(../Fonts/mvboli.ttf);
+}
 
 .wrapp{
     max-width: 1200px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*header start*/
@@ -105,6 +111,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 50px;
+   
 }
 .main_up_text>h1{
     font-family: 'Ubuntu Bold';
@@ -119,6 +126,9 @@
 }
 .main_up_text>p>span{
     color:#F35A05
+}
+.main_up_img{
+    max-width: 100%;
 }
 .reg-but{
     display: flex;
@@ -178,6 +188,7 @@
 .nou-xau_grid{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-bottom: 130px;
 }
 .info-grid{
     display: grid;
@@ -215,5 +226,26 @@
 .info-grid-col2>span>ul>li{
     list-style-type: decimal;
     margin-left: 15px;
+}
+.grid_video{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.grid_video_col{
+    position: relative;
+}
+.col_icon{
+    background-color: #F35A05;
+    color: white;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    font-family: 'MV Boli';
+    font-size: 24px;
+    text-align: center;
+    top:0px;
+    left:0px;
+    
 }
 /*main end*/
